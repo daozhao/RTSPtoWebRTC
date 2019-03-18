@@ -1,0 +1,71 @@
+# github.com/cheekybits/genny v1.0.0
+github.com/cheekybits/genny/generic
+# github.com/cloudflare/sidh v0.0.0-20181111220428-fc8e6378752b
+github.com/cloudflare/sidh/sidh
+github.com/cloudflare/sidh/internal/isogeny
+github.com/cloudflare/sidh/p503
+github.com/cloudflare/sidh/p751
+github.com/cloudflare/sidh/internal/arith
+github.com/cloudflare/sidh/internal/utils
+# github.com/deepch/av v0.0.0-20160612005306-c437a98c9300
+github.com/deepch/av
+# github.com/deepch/rtsp v0.0.0-20180827192050-70ae0abf31bd
+github.com/deepch/rtsp/sdp
+# github.com/deepch/sample_rtsp v0.0.0-20180827191708-90250a0f88be
+github.com/deepch/sample_rtsp
+# github.com/gorilla/mux v1.7.0
+github.com/gorilla/mux
+# github.com/pions/datachannel v1.2.0
+github.com/pions/datachannel
+# github.com/pions/dtls v1.2.1
+github.com/pions/dtls
+github.com/pions/dtls/internal/udp
+# github.com/pions/qtls-vendor-extracted v0.0.0-20190210024908-018998217c65
+github.com/pions/qtls-vendor-extracted
+# github.com/pions/quic v0.0.1
+github.com/pions/quic
+github.com/pions/quic/internal/wrapper
+# github.com/pions/quic-go v0.7.1-0.20190211221741-ec20a8498576
+github.com/pions/quic-go
+github.com/pions/quic-go/internal/ackhandler
+github.com/pions/quic-go/internal/congestion
+github.com/pions/quic-go/internal/flowcontrol
+github.com/pions/quic-go/internal/handshake
+github.com/pions/quic-go/internal/protocol
+github.com/pions/quic-go/internal/qerr
+github.com/pions/quic-go/internal/utils
+github.com/pions/quic-go/internal/wire
+# github.com/pions/rtcp v1.1.0
+github.com/pions/rtcp
+# github.com/pions/rtp v1.1.0
+github.com/pions/rtp
+github.com/pions/rtp/codecs
+# github.com/pions/sctp v1.4.1
+github.com/pions/sctp
+# github.com/pions/sdp/v2 v2.1.0
+github.com/pions/sdp/v2
+# github.com/pions/srtp v1.1.1
+github.com/pions/srtp
+# github.com/pions/stun v0.2.0
+github.com/pions/stun
+# github.com/pions/transport v0.4.0
+github.com/pions/transport/packetio
+# github.com/pions/webrtc v1.2.1-0.20190313043448-08a93d89ba56
+github.com/pions/webrtc
+github.com/pions/webrtc/pkg/media
+github.com/pions/webrtc/internal/ice
+github.com/pions/webrtc/internal/mux
+github.com/pions/webrtc/internal/util
+github.com/pions/webrtc/pkg/logging
+github.com/pions/webrtc/pkg/rtcerr
+# github.com/pkg/errors v0.8.1
+github.com/pkg/errors
+# golang.org/x/crypto v0.0.0-20190219172222-a4c6cb3142f2
+golang.org/x/crypto/curve25519
+golang.org/x/crypto/hkdf
+golang.org/x/crypto/chacha20poly1305
+golang.org/x/crypto/internal/chacha20
+golang.org/x/crypto/internal/subtle
+golang.org/x/crypto/poly1305
+# golang.org/x/sys v0.0.0-20180909124046-d0be0721c37e
+golang.org/x/sys/cpu
