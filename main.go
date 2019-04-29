@@ -5,7 +5,7 @@ import (
 	"log"
 
 	rtsp "github.com/deepch/sample_rtsp"
-	"github.com/pions/webrtc/pkg/media"
+	"github.com/pion/webrtc/v2/pkg/media"
 )
 
 var (
@@ -77,6 +77,9 @@ func main() {
 					}
 					nalType := data[4+rtphdr] & 0x1F
 					if nalType >= 1 && nalType <= 23 {
+						// if nalType == 6 {
+						// 	continue
+						// }
 						handleNALU(nalType, data[4+rtphdr:], ts)
 					} else if nalType == 28 {
 						isStart := data[4+rtphdr+1]&0x80 != 0
